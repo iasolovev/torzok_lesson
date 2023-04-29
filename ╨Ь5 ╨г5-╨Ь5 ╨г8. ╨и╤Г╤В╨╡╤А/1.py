@@ -3,12 +3,12 @@ from pygame import *
 #фоновая музыка
 mixer.init()
 mixer.music.load('space.ogg')
-mixer.music.play()
+
 fire_sound = mixer.Sound('fire.ogg')
 
 # нам нужны такие картинки:
 img_back = "galaxy.jpg" # фон игры
-img_hero = "rocket.png" # герой
+
 
 # класс-родитель для других спрайтов
 class GameSprite(sprite.Sprite):

@@ -1,11 +1,6 @@
 from pygame import *
 from random import randint
 
-#фоновая музыка
-mixer.init()
-mixer.music.load('space.ogg')
-mixer.music.play()
-fire_sound = mixer.Sound('fire.ogg')
 
 #шрифты и надписи
 font.init()
